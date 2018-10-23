@@ -1,0 +1,11 @@
+# emacs backup
+*~
+# virtual environment for sphinx
+myenv/*
+# unused files
+unused/*
+# virtualenv library
+virtualenv-*
+# build unused .doctrees
+build/.doctrees/*
+# image files --- these are
