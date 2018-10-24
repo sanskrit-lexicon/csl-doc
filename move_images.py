@@ -49,7 +49,7 @@ def copyimg():
  target_dir = "source/images"
  n = 0 # number of files copied
  for dictcode in dictcodes:
-  if dictcode not in ['acc','ae','ap90','ben']:
+  if dictcode  in ['acc','ae','ap90','ben','bhs']:
    print('skipping dictionary',dictcode)
    continue
   dirname = '%s/prefaces/%spref/images' %(dictionaries_dir,dictcode)
@@ -96,7 +96,7 @@ def prefnn():
  dst_dir = "source/dictionaries/prefaces"
  n = 0 # number of files copied
  for dictcode in dictcodes:
-  if dictcode not in ['acc','ae','ap90','ben']:
+  if dictcode  in ['acc','ae','ap90','ben','bhs']:
    print('skipping dictionary',dictcode)
    continue
   srcpref_dir = '%s/%spref' %(src_dir,dictcode)

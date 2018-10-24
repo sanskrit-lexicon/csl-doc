@@ -16,34 +16,33 @@ The following links show the front matter from the dictionaries.
    AP90 Apte Practical Sanskrit-English Dictionary <ap90>
    BEN Benfey Sanskrit-English Dictionary <ben>
    BHS Edgerton Buddhist Hybrid Sanskrit Dictionary <bhs>
-
-.. comment BOP Bopp Glossarium Sanscritum <bop>
-.. comment BOR English-Sanskrit Dictionary <bor>
-.. comment BUR Burnouf Dictionnaire Sanscrit-Français <bur>
-.. comment CAE Cappeller Sanskrit-English Dictionary <cae>
-.. comment CCS Cappeller Sanskrit Wörterbuch <ccs>
-.. comment GRA Grassman Wörterbuch zum Rig Veda <gra>
-.. comment GST Goldstücker Sanskrit-English Dictionary <gst>
-.. comment IEG Indian Epigraphical Glossary <ieg>
-.. comment INM Index to the Names in the Mahabharata <inm>
-.. comment KRM Kṛdantarūpamālā <krm>
-.. comment MCI Mahabharata Cultural Index <mci>
-.. comment MD Macdonell Sanskrit-English Dictionary <md>
-.. comment MW Monier-Williams Sanskrit-English Dictionary <mw>
-.. comment MW72 Monier-Williams Sanskrit-English Dictionary <mw72>
-.. comment MWE Monier-Williams English-Sanskrit Dictionary <mwe>
-.. comment PE Puranic Encyclopedia <pe>
-.. comment PGN Personal and Geographical Names in the Gupta Inscriptions <pgn>
-.. comment PUI The Purana Index <pui>
-.. comment PW Böhtlingk Sanskrit-Wörterbuch in kürzerer Fassung <pw>
-.. comment PWG Böhtlingk and Roth Grosses Petersburger Wörterbuch <pwg>
-.. comment SCH Schmidt Nachträge zum Sanskrit-Wörterbuch <sch>
-.. comment SHS Shabda-Sagara Sanskrit-English Dictionary <shs>
-.. comment SKD Sabda-kalpadruma <skd>
-.. comment SNP Sanskrit Names of Plants <snp>
-.. comment STC Stchoupak Dictionnaire Sanscrit-Français <stc>
-.. comment VCP Vacaspatya <vcp>
-.. comment VEI The Vedic Index of Names and Subjects <vei>
-.. comment WIL Wilson Sanskrit-English Dictionary <wil>
-.. comment YAT Yates Sanskrit-English Dictionary <yat>
+   BOP Bopp Glossarium Sanscritum <bop>
+   BOR English-Sanskrit Dictionary <bor>
+   BUR Burnouf Dictionnaire Sanscrit-Français <bur>
+   CAE Cappeller Sanskrit-English Dictionary <cae>
+   CCS Cappeller Sanskrit Wörterbuch <ccs>
+   GRA Grassman Wörterbuch zum Rig Veda <gra>
+   GST Goldstücker Sanskrit-English Dictionary <gst>
+   IEG Indian Epigraphical Glossary <ieg>
+   INM Index to the Names in the Mahabharata <inm>
+   KRM Kṛdantarūpamālā <krm>
+   MCI Mahabharata Cultural Index <mci>
+   MD Macdonell Sanskrit-English Dictionary <md>
+   MW Monier-Williams Sanskrit-English Dictionary <mw>
+   MW72 Monier-Williams Sanskrit-English Dictionary <mw72>
+   MWE Monier-Williams English-Sanskrit Dictionary <mwe>
+   PE Puranic Encyclopedia <pe>
+   PGN Personal and Geographical Names in the Gupta Inscriptions <pgn>
+   PUI The Purana Index <pui>
+   PW Böhtlingk Sanskrit-Wörterbuch in kürzerer Fassung <pw>
+   PWG Böhtlingk and Roth Grosses Petersburger Wörterbuch <pwg>
+   SCH Schmidt Nachträge zum Sanskrit-Wörterbuch <sch>
+   SHS Shabda-Sagara Sanskrit-English Dictionary <shs>
+   SKD Sabda-kalpadruma <skd>
+   SNP Sanskrit Names of Plants <snp>
+   STC Stchoupak Dictionnaire Sanscrit-Français <stc>
+   VCP Vacaspatya <vcp>
+   VEI The Vedic Index of Names and Subjects <vei>
+   WIL Wilson Sanskrit-English Dictionary <wil>
+   YAT Yates Sanskrit-English Dictionary <yat>
 
