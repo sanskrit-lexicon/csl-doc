@@ -1,0 +1,18 @@
+.. index:: Monier Williams Sanskrit-English Dictionary, 1872
+
+====================================================================
+MW72 Monier Williams Sanskrit-English Dictionary, 1872  (User notes)
+====================================================================
+
+This is the first edition of the Sanskrit-English dictionary by Monier
+Williams.  Most users should use the 1899 version :doc:`mw`.
+
+
+Front Matter
+------------
+
+.. toctree::
+   :maxdepth: 1
+   
+   prefaces/mw72pref.rst
+
