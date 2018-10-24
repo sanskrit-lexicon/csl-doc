@@ -81,7 +81,9 @@ Cologne.  Details later under 'Cologne upload'
 * images folder 
 For conceptual simplicity, it seems better to relocate the scanned 
 images of the front matter of the dictionary.
-In the project directory (the directory containing this readme file),
+For ease of reference in the restructured text files, the images directory
+should be within the *source* directory
+cd source
 mkdir images
 * current location of front matter scans
 For dictionary X, the images are in folder
