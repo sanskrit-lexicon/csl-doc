@@ -24,4 +24,4 @@ According to  the web-site's home page, there are digitizations of:
  * 10 specialized dictionaries.
 
 Each of these dictionaries has a suite of 4 :doc:`displays <displays/index>`.  
-A collection of :doc:`download materials <downloads/index>` is available for experienced users.
+.. comment A collection of :doc:`download materials <downloads/index>` is available for experienced users.

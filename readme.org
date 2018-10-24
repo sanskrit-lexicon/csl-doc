@@ -78,5 +78,40 @@ sphinx-build -b html source build
 The 'build' directory is constructed or updated.
 We'll want to do some modification of this when uploading to 
 Cologne.  Details later under 'Cologne upload'
+* images folder 
+For conceptual simplicity, it seems better to relocate the scanned 
+images of the front matter of the dictionary.
+In the project directory (the directory containing this readme file),
+mkdir images
+* current location of front matter scans
+For dictionary X, the images are in folder
+source/dictionaries/prefaces/Xpref/images
+
+For each image, the page referencing image number NN is XprefNN.rst.
+In this file, the sphinx image directive is
+.. image:: images/IMGFILENAME_X_NN
+We need to:
+a) move source/dictionaries/prefaces/Xpref/images/IMGFILENAME_X_NN to
+        source/images/IMGFILENAME_X_NN
+  -- I assume that as X ranges over all dictionaries and NN over all
+     the possibilities, then there all the IMGFILENAME_X_NN are distinct.
+     This assumption needs to be checked before moving all these
+     files into one directory.
+* imgchk
+  python move_images.py imgchk
+  There are 34 dictionary codes
+  acc, ae, ap90, ben  have no images folder
+  There are 468 total file names found in images folders for the other 30
+  dictionaries.
+  There are no dupicates among these file names (i.e., each filename 
+   occurs in the images folder of precisely one dictionary).
+* copyimg 
+python move_images.py copyimg
+Copy images for all dictionaries. 
+The source images are in directories for each dictionary code X
+  ../sphinx/cslv1/dictionaries/prefaces/Xpref/images'
+The target images are in 'images' directory.
+* copy and alter XprefNN files
+python move_images.py prefnn
 * Cologne upload
 * THE END

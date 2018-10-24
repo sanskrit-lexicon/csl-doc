@@ -11,8 +11,11 @@ Contents:
 
    intro
    displays/index
+   dictionaries/index
+
 .. comment   downloads/index
-.. comment   dictionaries/index
+
+
 .. comment   faq/index
 .. comment   contrib/index
 .. comment   dev/index
