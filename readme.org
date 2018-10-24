@@ -118,3 +118,7 @@ python move_images.py prefnn
 * image sizes
 size of git repository with just bhs: 17 mb
 images 20mb  (just bhs - 30 files -- only 15 are used)
+
+After build,
+  size of build directory: 3.8 mb
+  size of .git directory : 17.8mb

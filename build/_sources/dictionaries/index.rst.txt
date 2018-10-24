@@ -11,13 +11,12 @@ The following links show the front matter from the dictionaries.
 .. toctree::
    :maxdepth: 1
 
+   ACC Catalogus Catalogorum <acc>
+   AE Apte Student's English-Sanskrit Dictionary <ae>
+   AP90 Apte Practical Sanskrit-English Dictionary <ap90>
+   BEN Benfey Sanskrit-English Dictionary <ben>
    BHS Edgerton Buddhist Hybrid Sanskrit Dictionary <bhs>
 
-.. comment ACC Catalogus Catalogorum <acc>
-.. comment AE Apte Student's English-Sanskrit Dictionary <ae>
-.. comment AP90 Apte Practical Sanskrit-English Dictionary <ap90>
-.. comment BEN Benfey Sanskrit-English Dictionary <ben>
-.. comment BHS Edgerton Buddhist Hybrid Sanskrit Dictionary <bhs>
 .. comment BOP Bopp Glossarium Sanscritum <bop>
 .. comment BOR English-Sanskrit Dictionary <bor>
 .. comment BUR Burnouf Dictionnaire Sanscrit-Français <bur>

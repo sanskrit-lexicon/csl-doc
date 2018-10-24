@@ -49,7 +49,8 @@ def copyimg():
  target_dir = "source/images"
  n = 0 # number of files copied
  for dictcode in dictcodes:
-  if dictcode != 'bhs':
+  if dictcode not in ['acc','ae','ap90','ben']:
+   print('skipping dictionary',dictcode)
    continue
   dirname = '%s/prefaces/%spref/images' %(dictionaries_dir,dictcode)
   try:
@@ -95,15 +96,16 @@ def prefnn():
  dst_dir = "source/dictionaries/prefaces"
  n = 0 # number of files copied
  for dictcode in dictcodes:
-  if dictcode != 'bhs':
+  if dictcode not in ['acc','ae','ap90','ben']:
+   print('skipping dictionary',dictcode)
    continue
   srcpref_dir = '%s/%spref' %(src_dir,dictcode)
+  dstpref_dir = '%s/%spref' % (dst_dir,dictcode)
   try:
    filenames = os.listdir(srcpref_dir)
   except:
-   print('cannot find src directory' % srcpref_dir)
+   print('no files in src directory',srcpref_dir)
    continue
-  dstpref_dir = '%s/%spref' % (dst_dir,dictcode)
   if os.path.isdir(dstpref_dir):
    print("target directory exists",dstpref_dir)
   else:
