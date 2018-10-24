@@ -40,13 +40,13 @@ def imgchk():
 
 def copyimg():
  """ copy images from older version images directories into unified
-     source/image directory
+     source/images directory
  """
  d = {} # dictionary of image names
  dictionaries_dir = "../sphinx/cslv1/dictionaries"
  # current
  # dictionaries_dir = "source/dictionaries"
- target_dir = "images"
+ target_dir = "source/images"
  n = 0 # number of files copied
  for dictcode in dictcodes:
   if dictcode != 'bhs':

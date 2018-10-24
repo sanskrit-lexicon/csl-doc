@@ -115,3 +115,6 @@ The target images are in 'images' directory.
 python move_images.py prefnn
 * Cologne upload
 * THE END
+* image sizes
+size of git repository with just bhs: 17 mb
+images 20mb  (just bhs - 30 files -- only 15 are used)
