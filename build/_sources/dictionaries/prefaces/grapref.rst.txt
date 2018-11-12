@@ -15,3 +15,4 @@ Grassman Wörterbuch zum Rig Veda, Front Matter
    grapref/grapref03
    grapref/grapref04
    grapref/grapref05
+   grapref/grapref06

@@ -9,3 +9,5 @@ virtualenv-*
 # build unused .doctrees
 build/.doctrees/*
 # image files --- these are
+# temp files
+temp*
