@@ -18,18 +18,10 @@ Scanned pages
    schpref/schpref03
    schpref/schpref04
    schpref/schpref05
+   
+Front matter as PDF :download:`schpref/SCH-Nachtraege.pdf`
+   
 
-Searchable PDF
---------------
-
-:download:`SCH-Nachtraege <schpref/SCH-Nachtraege.pdf>`
-
-
-
-HTML form
-----------
-
-:download:`SCH-Nachtraege <schpref/SCH-Nachtraege.htm>`
-
+Front matter as html :download:`schpref/SCH-Nachtraege.htm`
 
 
