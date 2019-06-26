@@ -18,5 +18,5 @@ documentation.  The original development of the documentation (2014) existed onl
 computer.  Since I now have more experience with Github and how to integrate github repositories with the
 Cologne web site, it was a clear choice to put this self-contained unit here on Github.
 
-As of this writing,  the form of the documentation built from this repository is not quite finished; in particular
-the Cologne web site is still using the 2014 version.
+~~As of this writing,  the form of the documentation built from this repository is not quite finished; in particular
+the Cologne web site is still using the 2014 version.~~
