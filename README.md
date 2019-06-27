@@ -7,7 +7,7 @@ The documentation is generated with the [sphinx python documentation generator](
 
 This repository contains all the sphinx source code, as well as the resulting build output.
 
-The [readme_dev](https://github.com/sanskrit-lexicon/csldoc/blob/master/readme_dev.org) document describes how to
+The [readme_dev](https://github.com/sanskrit-lexicon/csldoc/blob/master/readme_dev.me) document describes how to
 set up a development environment.  Some pieces of the development environment are *not* included in the repository:
 * virtualenv-16.0.0 directory for local installation of virtualenv
 * myenv directory, the python virtual environment containing the sphinx library.
