@@ -16,8 +16,7 @@ For all the dictionaries, the displays present options for the spelling of Sansk
 words, using various transliterations. There are also options for the representation
 of Sanskrit words which are in Devanagari in the text.
 
-Each display contains a link to a:
-errors which are noticed.
+Each display contains a link to report errors which are noticed.
 
 .. toctree::
    :maxdepth: 1

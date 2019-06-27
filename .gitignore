@@ -11,3 +11,5 @@ build/.doctrees/*
 # image files --- these are
 # temp files
 temp*
+# build/_downloads
+build/_downloads/*
