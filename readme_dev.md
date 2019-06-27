@@ -49,7 +49,9 @@ python --version
  which pip
 #>>> /C/ejf/pdfs/TM2013/0docs/csldev/myenv/Scripts/pip
 #5. install sphinx
-pip install sphinx
+pip3 install sphinx
+# Installing via `pip install sphinx` in my ubuntu machine downloaded 1.8.1.
+# Therefore changed it to `pip3 install sphinx`, so that latest 2.1.2 version of sphinx is downloaded.
 #6. Deactivate virtual environment
 deactivate
 #7. note on size:  myenv is 74MB
@@ -60,6 +62,8 @@ deactivate
 # in csldoc directory
 #1. Activate the 'myenv' virtual environment, so sphinx will be available
 source myenv/Scripts/activate
+# For Ubuntu machine, it is inside bin folder instead of Scripts folder. Use as shown below.
+# source myenv/bin/activate
 #2. Deactivate the 'myenv' viritual environment when you are done working with sphinx.
 deactivate
 ```
@@ -113,3 +117,4 @@ Via ssh connection to Cologne,
 git pull origin master
 
 ```
+
