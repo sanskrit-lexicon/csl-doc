@@ -10,8 +10,8 @@ local computer.
 ### initialize csldoc from github
 
 ```
-git clone git@github.com:sanskrit-lexicon/csldoc.git
-cd csldoc
+git clone git@github.com:sanskrit-lexicon/csl-doc.git
+cd csl-doc
 ```
 
 ### python requirements for sphinx
@@ -24,11 +24,11 @@ We must use python3.
 
 ### setup virtual environment with sphinx on local computer 
 
-Be sure that 'csldoc' is the current directory.  We are going to create subdirectories *virtualenv-16.0.0* and *myenv* within
-csldoc;  Note these are in .gitignore, so they are not tracked by git.
+Be sure that 'csl-doc' is the current directory.  We are going to create subdirectories *virtualenv-16.0.0* and *myenv* within
+csl-doc;  Note these are in .gitignore, so they are not tracked by git.
 ```
 # 1. retrieve zipped version of virtualenv
-# csldoc is current directory
+# csl-doc is current directory
 curl -O https://files.pythonhosted.org/packages/33/bc/fa0b5347139cd9564f0d44ebd2b147ac97c36b2403943dbee8a25fd74012/virtualenv-16.0.0.tar.gz
 # 2. unpack the compressed file into directory virtualenv-16.0.0
 tar xvfz virtualenv-16.0.0.tar.gz
@@ -40,14 +40,15 @@ python3 virtualenv-16.0.0/virtualenv.py myenv
 source myenv/Scripts/activate
 # When myenv is activated, the 'python' command refers to python3.7
  which python
-#>>> /C/ejf/pdfs/TM2013/0docs/csldev/myenv/Scripts/python
+#>>> /C/xampp/htdocs/cologne/csl-doc/myenv/Scripts/python
+
 # note that this is python version 3.7, presumably since i used 'python3'
 # in creating the virtual environment.
 python --version
 #>>> Python 3.7.0
 # also check that 'pip' is also the one in 'myenv'
  which pip
-#>>> /C/ejf/pdfs/TM2013/0docs/csldev/myenv/Scripts/pip
+#>>> /C/xampp/htdocs/cologne/csl-doc/myenv/Scripts/pip
 #5. install sphinx
 pip3 install sphinx
 # Installing via `pip install sphinx` in my ubuntu machine downloaded 1.8.1.
@@ -59,7 +60,7 @@ deactivate
 
 ### quick commands for virtualenv
 ```
-# in csldoc directory
+# in csl-doc directory
 #1. Activate the 'myenv' virtual environment, so sphinx will be available
 source myenv/Scripts/activate
 # For Ubuntu machine, it is inside bin folder instead of Scripts folder. Use as shown below.
@@ -89,8 +90,9 @@ Guess we'll have to leave these.
 ### Regenerate the documentation as html:
 The 'build' directory is constructed or updated.
 Note that the top-level html files is *build/index.html*.
+The source files are in the *source* directory.
 ```
-# be sure *myenv* is activated
+# be sure *myenv* is activated, csl-doc is current directory.
 sphinx-build -b html source build
 
 # Note on changes in sphinx version.  Note above that we installed sphinx in the virtual environment.
@@ -99,12 +101,19 @@ sphinx-build --version
 # When the files were generated previously (in Nov 11, 2018), sphinx-build was at version 1.8.1.
 # The changes in sphinx-build from 1.8.1 to 2.1.2  generated many changes to the html generated output,
 # even though we have not made any changes to the input files  (in directory *source*).
+# >>> 2.2.1 (as of Nov 7, 2019).  
+#  Again, many changes to output 
+```
 
+### Check output on local machine.
+```
+Under xampp, the browser url used is:
+http://localhost/cologne/csl-doc/build/index.html
 ```
 
 ### Push to Github
 ``` 
-# on local development machine, in csldoc directory
+# on local development machine, in csl-doc directory
 git add .
 git commit -m "Rebuild with latest version of sphinx (2.1.2)"
 git push origin master
@@ -113,7 +122,7 @@ git push origin master
 ### Install at Cologne
 Via ssh connection to Cologne,
 ```
-# make current directory scans/csldev/csldoc
+# make current directory scans/csldev/csl-doc
 git pull origin master
 
 ```

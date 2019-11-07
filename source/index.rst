@@ -12,6 +12,7 @@ Contents:
    intro
    displays/index
    dictionaries/index
+   contrib
 
 .. comment   downloads/index
 
