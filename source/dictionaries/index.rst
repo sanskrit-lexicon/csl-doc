@@ -26,6 +26,7 @@ The following links show the front matter from the dictionaries.
    IEG Indian Epigraphical Glossary <ieg>
    INM Index to the Names in the Mahabharata <inm>
    KRM Kṛdantarūpamālā <krm>
+   LAN Lanman's Sanskrit Reader <lan>
    MCI Mahabharata Cultural Index <mci>
    MD Macdonell Sanskrit-English Dictionary <md>
    MW Monier-Williams Sanskrit-English Dictionary <mw>
