@@ -122,7 +122,7 @@ git push origin master
 ### Install at Cologne
 Via ssh connection to Cologne,
 ```
-# make current directory scans/csldev/csl-doc
+# make current directory scans/csldev/csldoc
 git pull origin master
 
 ```
