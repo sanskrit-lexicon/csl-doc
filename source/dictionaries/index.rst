@@ -21,7 +21,7 @@ The following links show the front matter from the dictionaries.
    BUR Burnouf Dictionnaire Sanscrit-Français <bur>
    CAE Cappeller Sanskrit-English Dictionary <cae>
    CCS Cappeller Sanskrit Wörterbuch <ccs>
-   GRA Grassman Wörterbuch zum Rig Veda <gra>
+   GRA Grassmann Wörterbuch zum Rig Veda <gra>
    GST Goldstücker Sanskrit-English Dictionary <gst>
    IEG Indian Epigraphical Glossary <ieg>
    INM Index to the Names in the Mahabharata <inm>

@@ -1,7 +1,7 @@
-.. index:: Grassman Wörterbuch zum Rig Veda
+.. index:: Grassmann Wörterbuch zum Rig Veda
 
 ==================================================
-GRA Grassman Wörterbuch zum Rig Veda  (User notes)
+GRA Grassmann Wörterbuch zum Rig Veda  (User notes)
 ==================================================
 
 .. toctree::
