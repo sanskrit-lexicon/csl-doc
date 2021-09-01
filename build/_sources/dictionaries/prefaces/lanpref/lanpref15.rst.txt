@@ -5,7 +5,7 @@
 
 
 Introductory Suggestions 2
------
+--------------------------
 
 .. raw:: html
 

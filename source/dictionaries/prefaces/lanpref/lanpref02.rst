@@ -5,7 +5,7 @@
 
 
 Dedication
------
+----------
 
 .. raw:: html
 

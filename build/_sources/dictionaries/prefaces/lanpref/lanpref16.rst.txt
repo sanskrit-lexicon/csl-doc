@@ -5,7 +5,7 @@
 
 
 Books for Students of Sanskrit 1
------
+--------------------------------
 
 .. raw:: html
 
