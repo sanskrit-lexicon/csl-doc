@@ -18,5 +18,5 @@ I want to just submit a correction
 1. Clone the repository https://github.com/sanskrit-lexicon/csl-orig/
 2. Make necessary changes in the concerned dictionary at https://github.com/sanskrit-lexicon/csl-orig/tree/master/v02 
 3. Create a Pull Request (PR).
-4. We would review the PR, if found appropriate.
+4. We would review and merge the PR, if found appropriate.
 5. Your correction is now available to the whole scholarly community at large. 
