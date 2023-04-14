@@ -2,7 +2,7 @@
 
 ## Development environment Sanskrit Lexicon Documentation
 
-These notes assume a Windows 10 computer with Gitbash and python3.4 or later.
+These notes assume a Windows 10 (or later) computer with Gitbash and python3.4 or later.
 It also assumes a previous version of the csldoc repository at Github.
 These instructions describe a complete installation of development environment for csldoc on
 local computer.
@@ -127,3 +127,19 @@ git pull origin master
 
 ```
 
+### Add LRV documentation
+## steps in local installation
+ Start with pdfs at https://github.com/sanskrit-lexicon-scans/lrv/pdfpages
+ Use LRV_frontmatter.pdf, LRV_endmatter.pdf
+   Note: deleted some pages (blank, etc.)
+* Add lrv to source/dictionaries/index.rst
+* new file lrv.rst
+* activate virtual environment
+  * source myenv/Scripts/activate
+* update 'build' directory based on 'source' directory
+  * csl-doc is current directory
+  * sphinx-build -b html source build
+* push to github  (git add, git push)
+* deactivate  # the virtual enfironment
+## steps in Cologne
+* git pull

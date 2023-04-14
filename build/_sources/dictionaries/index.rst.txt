@@ -27,6 +27,7 @@ The following links show the front matter from the dictionaries.
    INM Index to the Names in the Mahabharata <inm>
    KRM Kṛdantarūpamālā <krm>
    LAN Lanman's Sanskrit Reader <lan>
+   LRV L.R. Vaidya, Standard Sanskrit-English Dictionary <lrv>
    MCI Mahabharata Cultural Index <mci>
    MD Macdonell Sanskrit-English Dictionary <md>
    MW Monier-Williams Sanskrit-English Dictionary <mw>
