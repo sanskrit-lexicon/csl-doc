@@ -143,3 +143,21 @@ git pull origin master
 * deactivate  # the virtual enfironment
 ## steps in Cologne
 * git pull
+
+### Add ABCH documentation
+## steps in local installation
+ Start with pdfs at https://github.com/sanskrit-lexicon-scans/abch/pdfpages
+ Use ABCH_frontmatter.pdf
+   Note: deleted some pages (blank, etc.)
+* Add abch to source/dictionaries/index.rst
+* new file source/dictionaries/abch.rst -- edit as appropriate and get
+* source/_static/ABCH_frontmatter.pdf
+* activate virtual environment
+  * source myenv/Scripts/activate
+* update 'build' directory based on 'source' directory
+  * csl-doc is current directory
+  * sphinx-build -b html source build
+* push to github  (git add, git push)
+* deactivate  # the virtual enfironment
+## steps in Cologne
+* git pull

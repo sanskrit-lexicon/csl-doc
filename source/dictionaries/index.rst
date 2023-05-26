@@ -47,4 +47,5 @@ The following links show the front matter from the dictionaries.
    VEI The Vedic Index of Names and Subjects <vei>
    WIL Wilson Sanskrit-English Dictionary <wil>
    YAT Yates Sanskrit-English Dictionary <yat>
+   ABCH Abhidhānacintāmaṇi of Hemacandrācārya <abch>
 
