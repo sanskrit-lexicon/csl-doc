@@ -160,4 +160,5 @@ git pull origin master
 * push to github  (git add, git push)
 * deactivate  # the virtual enfironment
 ## steps in Cologne
+* cd .../scans/csldev/csldoc
 * git pull
