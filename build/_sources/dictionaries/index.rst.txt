@@ -13,6 +13,7 @@ The following links show the front matter from the dictionaries.
 
    ACC Catalogus Catalogorum <acc>
    AE Apte Student's English-Sanskrit Dictionary <ae>
+   AP Revised Apte Practical Sanskrit-English Dictionary, 1957 <ap>
    AP90 Apte Practical Sanskrit-English Dictionary <ap90>
    BEN Benfey Sanskrit-English Dictionary <ben>
    BHS Edgerton Buddhist Hybrid Sanskrit Dictionary <bhs>

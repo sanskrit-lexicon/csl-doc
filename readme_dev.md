@@ -162,3 +162,5 @@ git pull origin master
 ## steps in Cologne
 * cd .../scans/csldev/csldoc
 * git pull
+
+### Add AP documentation  see readme_dev_ap.md
