@@ -4,36 +4,43 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**csl-doc** (csldoc) is the Sphinx-based documentation repository for the Cologne Digital Sanskrit Lexicon (CDSL) project. It contains the documentation source and generated build output.
+**csl-doc** is a Sanskrit Lexicon **web-frontend** repository — part of the Cologne Digital Sanskrit Lexicon (CDSL) infrastructure.
 
-Deployed at the Cologne server. The `build/` directory contains the rendered HTML output.
+## Repo Category
 
-## Architecture
+`web-frontend` — see the [tooling runbook](https://github.com/sanskrit-lexicon/csl-observatory/blob/main/runbook/cologne-tooling-runbook.md) for category-specific conventions.
 
-| Directory/File | Purpose |
-|---|---|
-| `source/` | Sphinx RST source files for the documentation |
-| `build/` | Generated HTML documentation (tracked by git for deployment) |
-| `Makefile` / `make.bat` | Sphinx build commands |
-| `move_images.py` | Utility to move image files into the Sphinx source structure |
-| `readme_dev.md` | Developer setup instructions |
-| `readme_dev_ap.md` | Developer notes for the AP dictionary documentation |
+## GitHub Issue Conventions
 
-## Common Commands
+This repository uses the **Cologne tooling-repo taxonomy**. All issues must have:
+- **Exactly one type label** (9 options)
+- **Exactly one severity label** (4 levels)
+- **One milestone** (5 options)
 
-### Build documentation
-```bash
-make html          # Linux/Mac
-make.bat html      # Windows
-```
+### Type Labels
+- `bug` — Code defect (wrong output, broken contract)
+- `feature` — Net-new capability
+- `enhancement` — Improvement to existing capability
+- `performance` — Speed, memory, throughput optimization
+- `tech-debt` — Refactoring, cleanup, dependency updates
+- `security` — CVE, auth issue, credential exposure
+- `documentation` — Prose docs, API docs, comments
+- `infrastructure` — CI/CD, deploy, data pipelines, build tooling
+- `question` — Research, proposals, open discussions
 
-### Setup notes
+### Severity Labels
+- `trivial` — Cosmetic, < 1 hour
+- `minor` — Single function/component
+- `major` — Multiple files, design decision
+- `critical` — Blocks users, data loss/security CVE
 
-The Sphinx build requires:
-- A Python virtual environment (not tracked — set up per `readme_dev.md`)
-- `virtualenv` installed locally
+### Milestones
+- **API Stability** — performance, security, regressions
+- **User Experience** — bugs, features, enhancements
+- **Data Quality** — data-pipeline issues, integrity
+- **Developer Experience** — tech-debt, infrastructure, docs
+- **Community** — questions, proposals, discussions
 
-## Dependencies
+## Cross-Repo Coordination
 
-- **Python 3** with **Sphinx** (`pip install sphinx`)
-- Virtual environment setup (see `readme_dev.md`)
+The org-level project [Tooling Roadmap](https://github.com/orgs/sanskrit-lexicon/projects/9) tracks tool work across all repositories.
