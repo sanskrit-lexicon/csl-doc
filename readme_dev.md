@@ -1,3 +1,5 @@
+_Created: 26-06-2019 · Last updated: 05-09-2026_
+
 
 
 ## Development environment Sanskrit Lexicon Documentation
@@ -164,3 +166,5 @@ git pull origin master
 * git pull
 
 ### Add AP documentation  see readme_dev_ap.md
+
+_Dr. Mārcis Gasūns_

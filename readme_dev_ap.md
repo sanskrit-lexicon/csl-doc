@@ -1,3 +1,5 @@
+_Created: 31-08-2025 · Last updated: 05-09-2026_
+
 ## Add AP (Apte57) documentation. 08-31-2025
 start with pdfs:
  ap1_bookmark.pdf, ap2_bookmark.pdf,  ap3_bookmark.pdf.
@@ -43,3 +45,5 @@ ap57_vol3_apdxF_grammaticalTerms.pdf
 ## steps in Cologne
 * cd .../scans/csldev/csldoc
 * git pull
+
+_Dr. Mārcis Gasūns_
